@@ -119,9 +119,7 @@ export const updatePost = async (id, token, postData) => {
     const { title, description, price, location, willDeliver } = postData
 
     try {
-        // You will need to insert a variable into the fetch template literal 
-        // in order to make the POST_ID dynamic. 
-        // 5e8d1bd48829fb0017d2233b is just for demonstration.
+
         const response = await fetch(`${BASE_URL}/posts/${id}`, {
             method: "PATCH",
             headers: {
