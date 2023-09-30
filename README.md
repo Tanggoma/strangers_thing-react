@@ -2,6 +2,8 @@
 
 A local online marketplace to sell used items.
 
+Live Site: https://strangers-thing-tanggoma.netlify.app
+
 ### Tech Stack: 
 - React 
 - React Router 
